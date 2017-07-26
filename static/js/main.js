@@ -36,10 +36,10 @@ $('#submit').click(function() {
         url: "/ajax/data?name="+name+"&address="+address+"&email="+email,
         success: function(data) {
             if(data == 'no'){
-                console.log("NO");
+                $("#confirmation").html("<h1>Error: Your information has not been Submitted</h1>")
             }
             else{
-                console.log("YES");
+                $("#confirmation").html("<h1>Your information has been Submitted</h1>")
             }
         }
     });
