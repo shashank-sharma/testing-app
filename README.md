@@ -1,5 +1,4 @@
 ![Travis](https://travis-ci.org/shashank-sharma/testing-app.svg?branch=master)
-![Heroku](https://heroku-badge.herokuapp.com/?app=shashank-sharma&root=admin&style=flat)
 
 Testing app used to test some features
 
